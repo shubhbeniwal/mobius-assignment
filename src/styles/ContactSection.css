@@ -1,0 +1,14 @@
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #0649E7;
+  color: white;
+  border: none;
+  font-size: 18px;
+}

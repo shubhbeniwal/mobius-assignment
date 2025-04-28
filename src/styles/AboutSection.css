@@ -1,0 +1,24 @@
+.about {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.about p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.about-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0649E7;
+  font-size: 16px;
+  text-decoration: none;
+}

@@ -1,0 +1,45 @@
+.plans {
+  padding: 80px 20px;
+  background-color: #EBF1FF;
+  text-align: center;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.plan-card h3 {
+  font-size: 24px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.plan-card p {
+  font-family: 'DM Sans', sans-serif;
+  margin: 10px 0;
+}
+
+.plan-card button {
+  margin-top: 20px;
+  background-color: #0649E7;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.popular {
+  border: 2px solid #0649E7;
+}
