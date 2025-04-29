@@ -3,9 +3,9 @@ import './ContactSection.css';
 
 function ContactSection() {
   return (
-    <section className="contact container">
+    <section className="contact">
       <h2>Still have doubts?</h2>
-      <button className="btn-primary">Contact Us →</button>
+      <p>Contact us →</p>
     </section>
   );
 }

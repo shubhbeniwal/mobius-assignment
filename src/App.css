@@ -1,18 +1,20 @@
+@import "@fontsource/sora"; /* Sora Regular and SemiBold */
+@import "@fontsource/sora/600.css"; /* Sora SemiBold */
+@import "@fontsource/dm-sans"; /* DM Sans Regular */
+@import "@fontsource/dm-sans/500.css"; /* DM Sans Medium */
+@import "@fontsource/dm-sans/600.css"; /* DM Sans SemiBold */
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #FEFEFE;
+  color: #101010;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
-  }
-  
-  body {
-    background-color: #FEFEFE;
-    color: #101010;
-  }
-  
-  .container {
-    max-width: 1500px;
-    margin: auto;
-    padding: 20px;
-  }
-  
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -3,9 +3,9 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar container">
-      <div className="logo">MobiusEngine</div>
-      <ul className="nav-links">
+    <nav className="navbar">
+      <div className="navbar-logo">MobiusEngine</div>
+      <ul className="navbar-menu">
         <li>Home</li>
         <li>About Us</li>
         <li>Plans</li>
@@ -13,7 +13,7 @@ function Navbar() {
         <li>Privacy Policy</li>
         <li>More</li>
       </ul>
-      <button className="btn-primary">Get Started</button>
+      <button className="navbar-button">Get Started</button>
     </nav>
   );
 }

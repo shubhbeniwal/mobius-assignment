@@ -1,19 +1,31 @@
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .hero h1 {
-    font-size: 80px;
-    font-family: 'Sora', sans-serif;
-  }
-  
-  .hero p {
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  .hero .btn-primary {
-    margin-top: 30px;
-  }
-  
+  max-width: 1500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 80px;
+  color: #022183;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  color: #101010;
+}
+
+.hero-button {
+  margin-top: 30px;
+  padding: 12px 30px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #0649E7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
