@@ -1,9 +1,26 @@
 .testimonials {
-    margin-top: 80px;
-    text-align: center;
-  }
-  
-  .testimonials p {
-    margin-top: 20px;
-  }
-  
+  max-width: 1500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonials h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  color: #022183;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  background: #EBF1FF;
+  padding: 20px;
+  border-radius: 20px;
+  width: 250px;
+}

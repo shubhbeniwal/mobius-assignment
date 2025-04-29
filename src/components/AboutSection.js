@@ -3,10 +3,9 @@ import './AboutSection.css';
 
 function AboutSection() {
   return (
-    <section className="about container">
+    <section className="about">
       <h2>About Us</h2>
-      <p>Ashwin is the founder of mobiusengine.ai...</p>
-      <p>Nicole is an Executive coach at Mobius specializing...</p>
+      <p>Ashwin is the founder of MobiusEngine.ai... (complete text from your Figma)</p>
     </section>
   );
 }

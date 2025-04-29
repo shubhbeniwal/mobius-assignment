@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer container">
-      <p>© 2023 Mobiusservices LLC</p>
+    <footer className="footer">
+      <p>© 2023 Mobiusservices LLC - All Rights Reserved</p>
       <p>Terms & Conditions | Privacy Policy</p>
     </footer>
   );
